@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+
+TRANSLATIONS = {
+    'allowed_file_ext': 'Estensioni di file ammesse',
+    'field_permission': 'Permessi sui campi',
+    'max_upload_size': 'Dimensione massima upload',
+    'noteaction': 'Note e azioni',
+    'risk_level': 'Livello di rischio',
+    'sampling_date': 'Data rapporto campionamento',
+    'sampling_value': 'Sampling Value',
+    'struct_type': 'Tipo di impianto',
+    'cold_ufcl': 'UFCL Acqua Fredda',
+    'cold_flow_ufcl': 'UFCL Acqua Fredda dopo Scorrimento',
+    'hot_ufcl': 'UFCL Acqua Calda',
+    'hot_flow_ufcl': 'UFCL Acqua Calda dopo Scorrimento',
+    'cold_temperature': 'Temperatura Acqua Fredda',
+    'cold_flow_temperature': 'Temperatura Acqua Fredda dopo Scorrimento',
+    'hot_temperature': 'Temperatura Acqua Calda',
+    'hot_flow_temperature': 'Temperatura Acqua Calda dopo Scorrimento',
+    'cold_chlorine_dioxide': 'Biossido di Cloro Acqua Fredda',
+    'cold_flow_chlorine_dioxide': 'Biossido di Cloro Acqua Fredda Scorrimento',
+    'hot_chlorine_dioxide': 'Biossido di Cloro Acqua Calda',
+    'hot_flow_chlorine_dioxide': 'Biossido di Cloro Acqua Calda Scorrimento',
+    'cold': 'Acqua Fredda',
+    'cold_flow': 'Acqua Fredda dopo Scorrimento',
+    'hot': 'Acqua Calda',
+    'hot_flow': 'Acqua Calda dopo Scorrimento',
+}

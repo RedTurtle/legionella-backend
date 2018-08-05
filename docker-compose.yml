@@ -1,0 +1,8 @@
+# Se non possiamo usare docker-compose, digitiamo:
+# docker run --name postgres -p 5432:5432 -d postgres:9.6.3
+version: '2'
+services:
+    db:
+        image: postgres:9.6.3
+        ports:
+            - "5432:5432"
