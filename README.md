@@ -119,10 +119,4 @@ Example:
 - version 0.5.0 in production on 20/04/2018
 
 
-## Documentation
-
-More info can be found at
-https://sistemi.redturtle.it/kb/projects/legionella/index.html
-
-
 ---
