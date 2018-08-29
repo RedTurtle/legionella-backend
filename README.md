@@ -1,3 +1,18 @@
+# legionella-backend
+
+Questo è il back-end dell'applicativo per il controllo dei livelli di legionella
+per la pubblica amministrazione.
+Si tratta di un progetto [django](https://www.djangoproject.com/) che espone
+delle API [GraphQL](https://graphql.org/).
+Questo backend è accoppiato ad una applicazione [React](https://reactjs.org/)
+disponibile nel repo [legionella-frontend](https://github.com/RedTurtle/legionella-frontend) con
+la quale è stata creata l'interfaccia grafica di questo progetto.
+
+
+Per utilizzare/sviluppare questo prodotto, seguire le [istruzioni seguenti](#project-setup).
+Per utilizzare la build dell'applicazione React in sviluppo sul proprio server di sviluppo in locale, seguire le semplici istruzioni al paragrago [React frontend build](#react---frontend-build) più sotto.
+
+
 ## Project setup
 
 Note: There is a bash script `development`. When you see `python manage.py`,
