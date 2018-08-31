@@ -15,7 +15,7 @@ Per utilizzare la build dell'applicazione React in sviluppo sul proprio server d
 
 ## Project setup
 
-Note: There is a bash script `development`. When you see `python manage.py`,
+Note: There is a bash script `development`. If you need to run `python manage.py`,
 you can type `./development` instead (sparing some typing). So you can do
 something like `./development runserver`.
 
