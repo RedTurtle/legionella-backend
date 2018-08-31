@@ -13,6 +13,19 @@ Per utilizzare/sviluppare questo prodotto, seguire le [istruzioni seguenti](#pro
 Per utilizzare la build dell'applicazione React in sviluppo sul proprio server di sviluppo in locale, seguire le semplici istruzioni al paragrago [React frontend build](#react---frontend-build) più sotto.
 
 
+#### manage.py e managedev.py
+
+Gli ambienti di sviluppo e di produzione girano con settaggi differenti.
+Per questo motivo:
+- `manage.py`: da usare per la produzione. Utilizza il file `setting.py`
+- `managedev.py`: da usare per lo sviluppo. Utilizza il file `settingsdev.py`
+
+Come spiegato nel paragrafo relativo ai
+[settings privati](#setup-application-settings-never-commit-omissispy), le
+impostazioni che devono rimanere segrete vanno messe in
+`<projectfolder>/config/omissis.py`.
+
+
 ## Project setup
 
 Note: There is a bash script `development`. If you need to run `python manage.py`,
@@ -102,7 +115,7 @@ The dev server listen to the port `8000`.
 
 #### React - frontend build
 
-Put the `build` folder inside the `frontend` folder.
+*For development purpose*: Put the `build` folder inside the `frontend` folder.
 Django will serve the react application.
 
 
