@@ -113,7 +113,19 @@ python manage.py runserver
 The dev server listen to the port `8000`.
 
 
-#### React - frontend build
+## GraphQL API
+
+To explore everything about the APIs available you can use the graphical
+interactive in-browser GraphQL IDE: `GraphiQL`.
+
+First, login as an active user here http://localhost:8000/amministrazione to get
+your authentication token. Then visit http://localhost:8000/graphqlapp/graphqlapp
+and you are good to go.
+
+More info about the `GraphiQL` usage can be found [here](https://github.com/graphql/graphiql).
+
+
+## React - frontend build
 
 *For development purpose*: Put the `build` folder inside the `frontend` folder.
 Django will serve the react application.
